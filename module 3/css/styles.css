@@ -1,0 +1,28 @@
+
+.nav-container{
+    background: rgb(209, 207, 207);;
+}
+.navbar-brand{
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link{
+    visibility: hidden;
+}
+
+
+.content{
+    background: rgb(209, 207, 207);
+}
+@media(max-width:576px)
+{
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+        font-size: 1.2em;
+        color: black ;
+        visibility: visible;
+    }
+
+    
+}
